@@ -1,28 +1,28 @@
 class AgentVault < Formula
   desc "Zero-trust local credential proxy for LLM agents"
   homepage "https://github.com/CrimsonWorks-Inc/agent-vault"
-  version "0.3.1"
+  version "0.3.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.3.1/agent-vault-0.3.1-aarch64-apple-darwin.tar.gz"
-      sha256 "0adda0438d8c6eeccf92873a265a4375c64850aadae21969ae33515041f53343"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.3.2/agent-vault-0.3.2-aarch64-apple-darwin.tar.gz"
+      sha256 "8f97529211dd62b9abcedee9a21b8d62312a08b27547f8018b90a5d36fb27722"
     end
     on_intel do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.3.1/agent-vault-0.3.1-x86_64-apple-darwin.tar.gz"
-      sha256 "fbda850ddd4b5a39d11984a74c8e0d38af294af0296efff02b08ea9f83d17907"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.3.2/agent-vault-0.3.2-x86_64-apple-darwin.tar.gz"
+      sha256 "51ef9e95e679a090adb84279ec8c732ad0911ec14fc2eed3f0ad7898daf3930a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.3.1/agent-vault-0.3.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "944ad8d93bd1da3b7ee06e3c2a80bd4655fb14239be1a04063841768828d2162"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.3.2/agent-vault-0.3.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "74a563606a257b6adf1c09995fae0e23797e66860570513857c47d3742f632ed"
     end
     on_intel do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.3.1/agent-vault-0.3.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e9169153d8d1849ee95724e71349e0b9fd78cec5fdbcb2b5cea7d2b2e06e346d"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.3.2/agent-vault-0.3.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6cff3bcc1005cd58727a9c3347a260da564842c723240986fb6881522c19dff1"
     end
   end
 
@@ -39,9 +39,12 @@ class AgentVault < Formula
 
         agent-vault setup
 
-      Upgrading later (after brew upgrade):
+      Upgrading later:
 
-        agent-vault upgrade
+        brew upgrade agent-vault && agent-vault upgrade
+
+      upgrade installs this release into the root-owned service; it asks
+      for your password (or Touch ID) each time.
     EOS
   end
 
