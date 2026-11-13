@@ -1,28 +1,28 @@
 class AgentVault < Formula
   desc "Zero-trust local credential proxy for LLM agents"
   homepage "https://github.com/CrimsonWorks-Inc/agent-vault"
-  version "0.3.0"
+  version "0.3.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.3.0/agent-vault-0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "d23b781501ca4f47d5333a973c680465183d79b6c40a70fc2ff33a6bc170fc38"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.3.1/agent-vault-0.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "0adda0438d8c6eeccf92873a265a4375c64850aadae21969ae33515041f53343"
     end
     on_intel do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.3.0/agent-vault-0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "23d1449b6b1bd9050134bc186812bfe45847024a7c201c89243375cd5ff3c504"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.3.1/agent-vault-0.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "fbda850ddd4b5a39d11984a74c8e0d38af294af0296efff02b08ea9f83d17907"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.3.0/agent-vault-0.3.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "1929b6ddc11c50b1aeaee176a3e4d207cba2b05d1db7acfd4e50220098af5eb2"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.3.1/agent-vault-0.3.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "944ad8d93bd1da3b7ee06e3c2a80bd4655fb14239be1a04063841768828d2162"
     end
     on_intel do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.3.0/agent-vault-0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8889719fe318726d589b1ca3df887500483b89cc9dec5c5d3b820f83aa959f6d"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.3.1/agent-vault-0.3.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e9169153d8d1849ee95724e71349e0b9fd78cec5fdbcb2b5cea7d2b2e06e346d"
     end
   end
 
