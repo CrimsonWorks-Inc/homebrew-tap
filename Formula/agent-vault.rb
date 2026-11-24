@@ -1,28 +1,28 @@
 class AgentVault < Formula
   desc "Zero-trust local credential proxy for LLM agents"
   homepage "https://github.com/CrimsonWorks-Inc/agent-vault"
-  version "0.5.0"
+  version "0.5.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.0/agent-vault-0.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "e42c856498cea61c853223033ef71994fd49c5af3bc95644b6857838fe3e5d94"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.1/agent-vault-0.5.1-aarch64-apple-darwin.tar.gz"
+      sha256 "ad3f0a84e807c262030f5981be57b75f85c2252d68073f8258caabbda8614b01"
     end
     on_intel do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.0/agent-vault-0.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "faf5a3e0cc33607e2c8e51f5d2089c3ab2b42ec4b38b51bdc03cc8f9af6f70d7"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.1/agent-vault-0.5.1-x86_64-apple-darwin.tar.gz"
+      sha256 "a703f60b95e8c7e2c603faee4a2cbc40c60c7fcbc772318733ba96e768b282a6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.0/agent-vault-0.5.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e549f2291554b9ea064922614fe6bc3b818a6de0201487f57e74a0dae3d3e064"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.1/agent-vault-0.5.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "814f54e120bf39f5354b65bd6ed27b1eb44a45d54427c2e34b03e6b01044eb44"
     end
     on_intel do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.0/agent-vault-0.5.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fb379e99eeef2428f810f3fb9bf2038b4dafc94be79594a2817c28447ae999c1"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.1/agent-vault-0.5.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e334bbf9cd5ccd03b17681ca7f11af6e7f380aa74b85b3063ef815b14bf65b85"
     end
   end
 
