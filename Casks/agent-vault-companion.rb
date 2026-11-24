@@ -1,6 +1,6 @@
 cask "agent-vault-companion" do
-  version "0.5.2"
-  sha256 "50e5abefd68b9513826fa4741e8e30c6adfc83c5f0f385029d9139262189e7ad"
+  version "0.5.3"
+  sha256 "ad2174e4985f6a5e1887be7479aa4c7d91df196f582fde596e5122141f40660e"
 
   url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v#{version}/agent-vault-companion-#{version}.dmg"
   name "agent-vault companion"
@@ -22,8 +22,13 @@ cask "agent-vault-companion" do
     bar, on a screen without one). If agent-vault is not set up yet, run
     `agent-vault setup` once, or let the companion offer it.
 
+    The app is not notarized yet, so macOS will not open this copy. Replace
+    it with a checked copy that opens (after each upgrade, too):
+
+      agent-vault companion install
+
     Upgrading later, the app and the vault together:
 
-      brew upgrade && agent-vault upgrade
+      brew upgrade && agent-vault upgrade && agent-vault companion upgrade
   EOS
 end

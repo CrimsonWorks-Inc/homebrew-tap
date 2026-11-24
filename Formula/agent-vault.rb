@@ -1,28 +1,28 @@
 class AgentVault < Formula
   desc "Zero-trust local credential proxy for LLM agents"
   homepage "https://github.com/CrimsonWorks-Inc/agent-vault"
-  version "0.5.2"
+  version "0.5.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.2/agent-vault-0.5.2-aarch64-apple-darwin.tar.gz"
-      sha256 "91b05173a8babe9d326d46536608fd849435b9aa2f251dc513046990cf278ca5"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.3/agent-vault-0.5.3-aarch64-apple-darwin.tar.gz"
+      sha256 "5a61b3005ca13963aed765fd1e4091f234022e3c64d1980cbed9f5168f4d7c1e"
     end
     on_intel do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.2/agent-vault-0.5.2-x86_64-apple-darwin.tar.gz"
-      sha256 "3171e266ecbc7c5d4abcf7130da6e3ce418c3962d6ae7da516e65d68824e41dc"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.3/agent-vault-0.5.3-x86_64-apple-darwin.tar.gz"
+      sha256 "178d5e387a20b51cbb40a8101737eb7e66ffd02edb28fd460e74710d552f98e1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.2/agent-vault-0.5.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "323b6a37a114abeab05235a994b9e2eb4417a3cd3548122ff178374e0261d1f1"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.3/agent-vault-0.5.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c069b83d46dcadd8d733a4690e204c8bc4feaa740c58b704f68b1a05344e44d1"
     end
     on_intel do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.2/agent-vault-0.5.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "93c44dd444fe71c6e344a87c631c4d9b309e1084d86b2113b6e5f201f72e50de"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.3/agent-vault-0.5.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4c798afb853eb4b6532a61f5ebf1cd533bce6321a5541a52c15018d44d66ce5b"
     end
   end
 
