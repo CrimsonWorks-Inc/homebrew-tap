@@ -1,28 +1,28 @@
 class AgentVault < Formula
   desc "Zero-trust local credential proxy for LLM agents"
   homepage "https://github.com/CrimsonWorks-Inc/agent-vault"
-  version "0.4.0"
+  version "0.5.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.4.0/agent-vault-0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "8902370408d92a51ba88cb8e0127622e45ba64c9f56bc81f8f342da17798c4c2"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.0/agent-vault-0.5.0-aarch64-apple-darwin.tar.gz"
+      sha256 "e42c856498cea61c853223033ef71994fd49c5af3bc95644b6857838fe3e5d94"
     end
     on_intel do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.4.0/agent-vault-0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "423cae9f2f7af6c85b7674e58e6ddee3105077c7d091ae7992c54d35a3fa7143"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.0/agent-vault-0.5.0-x86_64-apple-darwin.tar.gz"
+      sha256 "faf5a3e0cc33607e2c8e51f5d2089c3ab2b42ec4b38b51bdc03cc8f9af6f70d7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.4.0/agent-vault-0.4.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3f9ad2c7f67a5807fffe65d020814b9511139894c1c27de69c86071ea02ad5d4"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.0/agent-vault-0.5.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e549f2291554b9ea064922614fe6bc3b818a6de0201487f57e74a0dae3d3e064"
     end
     on_intel do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.4.0/agent-vault-0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2b10344f08216272823a68611f0faadc51907b1dad2247d2b3733c2a9c24e345"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.0/agent-vault-0.5.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "fb379e99eeef2428f810f3fb9bf2038b4dafc94be79594a2817c28447ae999c1"
     end
   end
 
