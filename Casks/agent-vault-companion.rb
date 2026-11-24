@@ -1,6 +1,6 @@
 cask "agent-vault-companion" do
-  version "0.5.1"
-  sha256 "b4ea4a4b59bb5c465239dc1a912cbd638c6e50bcca3558673eae780b27bcb68e"
+  version "0.5.2"
+  sha256 "50e5abefd68b9513826fa4741e8e30c6adfc83c5f0f385029d9139262189e7ad"
 
   url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v#{version}/agent-vault-companion-#{version}.dmg"
   name "agent-vault companion"

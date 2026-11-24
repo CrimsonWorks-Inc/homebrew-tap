@@ -1,28 +1,28 @@
 class AgentVault < Formula
   desc "Zero-trust local credential proxy for LLM agents"
   homepage "https://github.com/CrimsonWorks-Inc/agent-vault"
-  version "0.5.1"
+  version "0.5.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.1/agent-vault-0.5.1-aarch64-apple-darwin.tar.gz"
-      sha256 "ad3f0a84e807c262030f5981be57b75f85c2252d68073f8258caabbda8614b01"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.2/agent-vault-0.5.2-aarch64-apple-darwin.tar.gz"
+      sha256 "91b05173a8babe9d326d46536608fd849435b9aa2f251dc513046990cf278ca5"
     end
     on_intel do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.1/agent-vault-0.5.1-x86_64-apple-darwin.tar.gz"
-      sha256 "a703f60b95e8c7e2c603faee4a2cbc40c60c7fcbc772318733ba96e768b282a6"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.2/agent-vault-0.5.2-x86_64-apple-darwin.tar.gz"
+      sha256 "3171e266ecbc7c5d4abcf7130da6e3ce418c3962d6ae7da516e65d68824e41dc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.1/agent-vault-0.5.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "814f54e120bf39f5354b65bd6ed27b1eb44a45d54427c2e34b03e6b01044eb44"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.2/agent-vault-0.5.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "323b6a37a114abeab05235a994b9e2eb4417a3cd3548122ff178374e0261d1f1"
     end
     on_intel do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.1/agent-vault-0.5.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "e334bbf9cd5ccd03b17681ca7f11af6e7f380aa74b85b3063ef815b14bf65b85"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.2/agent-vault-0.5.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "93c44dd444fe71c6e344a87c631c4d9b309e1084d86b2113b6e5f201f72e50de"
     end
   end
 
