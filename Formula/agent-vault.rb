@@ -1,28 +1,28 @@
 class AgentVault < Formula
   desc "Zero-trust local credential proxy for LLM agents"
   homepage "https://github.com/CrimsonWorks-Inc/agent-vault"
-  version "0.5.3"
+  version "0.6.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.3/agent-vault-0.5.3-aarch64-apple-darwin.tar.gz"
-      sha256 "5a61b3005ca13963aed765fd1e4091f234022e3c64d1980cbed9f5168f4d7c1e"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.6.0/agent-vault-0.6.0-aarch64-apple-darwin.tar.gz"
+      sha256 "f16ff8c1176e24d07f61b76cc092889d94139526ce370b5de2ad55599a68f2ff"
     end
     on_intel do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.3/agent-vault-0.5.3-x86_64-apple-darwin.tar.gz"
-      sha256 "178d5e387a20b51cbb40a8101737eb7e66ffd02edb28fd460e74710d552f98e1"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.6.0/agent-vault-0.6.0-x86_64-apple-darwin.tar.gz"
+      sha256 "fabb65c673c3cd5d147ff84ebf2e007d478c8a3f51f9cec673b90409a9229d51"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.3/agent-vault-0.5.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c069b83d46dcadd8d733a4690e204c8bc4feaa740c58b704f68b1a05344e44d1"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.6.0/agent-vault-0.6.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "14661fe6f1e75063a2588b17fba19b9dad8f1697da9d15c2678583e6e1115614"
     end
     on_intel do
-      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.5.3/agent-vault-0.5.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4c798afb853eb4b6532a61f5ebf1cd533bce6321a5541a52c15018d44d66ce5b"
+      url "https://github.com/CrimsonWorks-Inc/agent-vault/releases/download/v0.6.0/agent-vault-0.6.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c37d5940e19f09976c32beed9c9f6b3daa72189ad10004c15c3885dfdde85cad"
     end
   end
 
